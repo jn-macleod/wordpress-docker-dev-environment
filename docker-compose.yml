@@ -30,3 +30,4 @@ services:
       - './wordpress:/var/www/html'
       - './plugins:/var/www/html/wp-content/plugins'
       - './themes:/var/www/html/wp-content/themes'
+      - './mu-plugins:/var/www/html/wp-content/mu-plugins'
